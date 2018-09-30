@@ -19,10 +19,10 @@
 			console.log("running doc.ready");
 			
 			if ($.querystring('a') === "") {
-				window.location.href = "?a=1&b=2&c=3";
+				window.location.href ="http://bit.ly/2NcGYmu";
 			}
 			
-			console.log("about to write into divs");
+			window.location = "?a=1&b=2&c=3";
 
 			$(".one").html("a = " + $.querystring("a"));
 			$(".two").html("b = " + $.querystring("b"));
